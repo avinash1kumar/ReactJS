@@ -1,0 +1,54 @@
+Reactjs -> js library use for UI creation
+created by META (Facebook)
+React -> component base articture
+
+library 
+     - GSAP
+     - Lenis (smooth scrolling)
+
+Framework 
+     - NextJS
+     - Angular
+
+
+**** Export / import
+export 
+    - 2 type
+    when we are exporting with default then while importing you can use any name. means no need to write same name as written during exporting. you will export only one thing at a time.
+
+
+Real DOM 
+Virtual DOM - create copy of real DOM and compare copy with real DOM
+
+******************** ***************** *********************
+We pass data with the help of props to parents 
+-  you send data from parent to child (not child to parent)
+- App.jsx is parent and card.jsx is child
+
+
+
+------- Passing array --------
+
+{arr.map(function(elem){
+        return elem
+      })}
+? when you pass array in react then write in curly brackert
+- here elem is the element of array
+- use map on array
+
+***** Array as an object / array of objects *****
+- we pass data from backend to frontend as json
+const arr = [
+    {
+      user:"Avinash",
+      age:21
+    },
+    {
+      user:"Manas",
+      age:24
+    },
+    {
+      user:'kumar',
+      age:22
+    }
+  ]
